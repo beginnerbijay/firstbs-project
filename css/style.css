@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: scroll; */
+}
+.navbar-brand{
+    padding-left: 24px;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar{
+    z-index: 99;
+    padding: 16px 125px;
+    position: absolute;
+    width: 100%;
+    background-color: transparent !important;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.6),rgba(0,0,0,0));
+    /* overflow-x: scroll; */
+
+}
+.nav-item{
+    font-size: 21px;
+    padding-right: 80px;
+}
+.nav-item a{
+    font-weight: bolder;
+    color: white;
+}
+.navbar-toggler-icon{
+    color:red !important;
+    background-color: white;
+    z-index: 10;
+}
+.home{
+    background-image: url(/images/2882794.jpg);
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    /* overflow-x: scroll; */
+}
+.home h1, p, button{
+color: white !important;
+}
+.home h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.home p{
+    font-size: 25px;
+    margin: 60px 0;
+}
+#home{
+    position: absolute;
+top:150px ;
+    margin-top: 60px;
+}
+#order-btn{
+    font-size: 25px;
+    padding: 5px 55px;
+    font-weight: bold;
+    border: 2px solid #f54b3b;
+    border-radius: 26px;
+    background-color: #f54b3b;
+}
+#chef{
+    background-image: url(/images/3639733.jpg);
+    color: #f54b3b;
+    padding: 110px 0;
+    background-size: cover;
+    background-position:center;
+    /* overflow-x: scroll; */
+
+}
+#chef h2{
+    font-size: 4.0rem;
+    color: #f54b3b;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#chef p{
+    font-size: 1.7rem;
+    color: #f54b3b !important;
+}
+#mg1{
+    width: 244px;
+    height: 255px;
+}
+.mg2{
+    border: 1px;
+    border-radius: 50%;
+}
+#chef-info{
+    margin-top: 110px;
+}
+#chef-info h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+}
+#chef-info p{
+    font-size: 1.5rem;
+
+}
+.best{
+    background-color: #f54b3b;
+    padding: 85px 0;
+    /* overflow-x: scroll; */
+}
+.best img{
+    border: 1px;
+    border-radius: 50%;
+}
+.best h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.best p{
+    font-size: 1.5rem;
+    margin: 50px 0;
+    left: 0;
+    color: white !important;
+}
+.best button{
+    background-color: white !important;
+    color: #f54b3b !important;
+    padding: 5px 75px;
+}
+.best-info{
+    margin-top: 40px;
+}
+.big-info{
+    background-image: url(/images/3639733.jpg);
+    background-size: cover;
+    background-position: center;
+    /* overflow-x: scroll; */
+}
+.big-info h1, p{
+    color: #f54b3b ;
+}
+.big-info .big-p{
+    color: #f54b3b !important;
+}
+.big-info button{
+    background-color: #f54b3b !important;
+    color: white !important;
+}
+#stat{
+    background-color: #f54b3b;
+     padding: 85px 0;
+     /* overflow-x: scroll; */
+}
+#stat h1{
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+#stat h2{
+    font-size: 4.5rem;
+    color: white;
+}
+#stat p{
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+.border-c{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    padding: 45px 0;
+    margin: 30px 60px;
+}
+#stat .stat-p{
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+#pop{
+    background-image: url(/images/3639733.jpg);
+    background-size: cover;
+    padding: 80px 0;
+    /* overflow-x: scroll; */
+}
+#pop h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #f54b3b;
+    margin-bottom: 100px;
+}
+#pop h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #f54b3b;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.border-p .mg3{
+    width: 40%;
+}
+.border-p p{
+    color: #f54b3b !important;
+    font-size: 1.3rem;
+}
+.border-p{
+    border: 5px solid white;
+    border-radius: 2%;
+    background-color: white;
+    width: 305px;
+    height: 435px;
+    margin: 30px 75px;
+}
+#pop #order-btn{
+    margin: 10px 0;
+}
+#barry{
+    background: linear-gradient( rgba(245,75,60,0.6),rgba(245,75,60,0.4),rgba(245,75,60,0.6)) ,url(/images/bg.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 50px 0;
+    position: relative;
+    color: white !important;
+    /* overflow-x: scroll; */
+}
+#barry p{
+    font-size: 2rem;
+    margin-top: 15%;
+}
+#barry h4{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#sub{
+    background-image: url(/images/3639733.jpg);
+    background-size: cover;
+    background-position:bottom center;
+    color: #f54b3b !important;
+    padding: 200px 0;
+    /* overflow-x: scroll; */
+}
+#sub h1{
+    font-size: 4.5rem;
+    margin-bottom: 25px;
+}
+#sub p{
+    font-size: 1.6rem;
+    color: #f54b3b !important;
+}
+#sub input{
+    padding: 10px 250px 10px 30px;
+    border: 2px solid white;
+    border-radius: 25px 0 0 25px;
+    font-size: 1.5rem;
+    position: relative;
+    right: -3%;
+}
+#sub button{
+    font-size: 1.5rem;
+    padding: 10px 60px;
+    background-color: #f54b3b;
+    border: 1px;
+    border-radius: 0 25px 25px 0;
+    text-transform: uppercase;
+    margin: 50px;
+}
+footer{
+    background-color: #212121;
+    color: white;
+    /* height: 65vh; */
+    width: 101.5%;
+    padding: 170px 0;
+    margin: 0;
+
+    position: relative;
+    left: -1%;
+    /* box-sizing: border-box !important; */
+    /* overflow-x: scroll; */
+}
+footer h3{
+    font-size: 2.5rem;
+}
+footer p{
+    font-size: 1.2rem;
+    margin: 30px 0;
+}
+footer i{
+    font-size: 2.5rem;
+    background-color: white;
+    border: 1px;
+    border-radius: 50%;
+    color: #212121;
+    padding: 0 8px ;
+}
+.height{
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 500px)
+{
+    .navbar{
+        padding: 0;
+    }
+    .navbar .bi-list{
+        font-size: 4rem;
+    }
+    .navbar-collapse{
+        background-color: #f54b3b;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-item {
+        padding-right: 0px;
+    }
+   .home h1{
+       font-size: 60px;
+   }
+   .best img {
+    margin-top: 49px;
+   }
+    
+   #sub input {
+    padding: 10px;
+    border-radius: 25px;
+    right: 0%;
+    margin-top: 40px;
+   }
+   #sub input::placeholder{
+       text-align: center;
+   }
+   #sub button {
+       border-radius: 25px;
+       margin: 20px;
+   }
+   footer {
+    width: 106%;
+    position: relative;
+    left: -3%;
+   }
+  }
